@@ -1,0 +1,89 @@
+
+body{
+    padding: 30px;
+    background-image:url("background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+<<<<<<< HEAD
+    
+=======
+    border-width: 5px;
+    border-color:greenyellow
+>>>>>>> 07e25810da2b8ad804f32a7d840f3d64f4972115
+    
+}
+#excelData table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 3px solid #b14c4c;
+    text-decoration: double;
+}
+
+#excelData td {
+    border:5px black;
+    border-style:outset;
+    padding: 8px;
+    text-align: left;
+    text-decoration: dotted;
+    background-color: white;
+    
+}
+
+h1{
+ 
+
+}
+@media only screen and (max-width: 600px) {
+    #excelData td {
+        padding: 8px; /* Adjust padding for smaller screens */
+        font-size: 12px; /* Adjust font size for smaller screens */
+    }
+}
+.beauty{
+    width:20%;
+    display: flex;
+}
+
+.beauty>h1{
+text-align: center;
+ font-family:Georgia, 'Times New Roman', Times, serif;
+ font-style: italic;
+ display: inline;
+ padding: 5px;
+ font-size:50px;
+ margin-top: 30px;
+ margin-right: 5px;
+}
+.first{
+  margin-bottom: 5px;
+  margin-left: 85px;
+
+}
+@media only screen and (max-width: 600px) {
+    body {
+        padding: 10px; 
+    }
+
+    #excelData td {
+        padding: 5px; 
+        font-size: 12px;
+    }
+
+    .beauty {
+        width: 100%; 
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .beauty > h1 {
+        font-size: 30px; 
+        margin-top: 10px; 
+        margin-right: 0; 
+        margin-bottom: 5px; 
+        margin-left: 0;
+    }
+
+    .first {
+        margin: 0; 
+    }
+}
